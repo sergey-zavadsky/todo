@@ -1,4 +1,4 @@
-.header {
+.main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -8,6 +8,6 @@
 	width: 100%;
 }
 
-.h2 {
+.h3 {
 	padding-top: 20px;
 }

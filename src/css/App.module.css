@@ -1,6 +1,5 @@
-.mainApp {
+.content {
 	background-color: #f3f3f3;
-	width: 50vh;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;

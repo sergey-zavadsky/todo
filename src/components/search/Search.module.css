@@ -1,0 +1,25 @@
+.main,
+.input {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #76768042;
+	width: 390px;
+	height: 36px;
+	border-radius: 10px;
+	--search-bg-color: #76768042000;
+}
+.input,
+.input:focus {
+	background-color: var(--search-bg-color);
+	display: flex;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	width: 352px;
+	height: 29.63px;
+}
+
+.icon {
+	color: #767680;
+}

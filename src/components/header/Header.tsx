@@ -1,9 +1,9 @@
-import styles from './css/Header.module.css';
+import header from './css/Header.module.css';
 
 function Header() {
 	return (
-		<div className={styles.header}>
-			<h2 className={styles.h2}>Home</h2>
+		<div className={header.main}>
+			<h3 className={header.h3}>Home Bakery</h3>
 		</div>
 	);
 }

@@ -1,0 +1,10 @@
+.blockSection {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.main {
+	padding: 20px 0 20px 0;
+}
