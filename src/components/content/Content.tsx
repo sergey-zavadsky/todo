@@ -2,8 +2,9 @@ import styles from './css/Content.module.css';
 import search from '../search/Search.module.css';
 import upcoming from '../upcoming/Upcoming.module.css';
 import popular from '../popular/Popular.module.css';
-import IconSearch from '../../icons/Search/Search';
+import { IconSearch } from '../../icons/Icons';
 import Block from '../itemBlock/Block';
+import blockStructure from '../itemBlock/css/Block.module.css';
 
 function Content() {
 	return (
@@ -15,13 +16,13 @@ function Content() {
 
 			<div className={upcoming.main}>
 				<h2>Upcoming</h2>
-				<div className={upcoming.blockSection}>
+				<div className={blockStructure.blockSection}>
 					<Block />
 				</div>
 			</div>
 			<div className={popular.main}>
 				<h2>Popular courses</h2>
-				<div className={popular.blockSection}>
+				<div className={blockStructure.blockSection}>
 					<Block />
 					<Block />
 					<Block />

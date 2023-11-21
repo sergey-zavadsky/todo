@@ -1,7 +1,78 @@
+.main,
+.blockSection {
+	padding-top: 20px;
+}
+
 .main {
 	width: 390px;
 	height: 100px;
 	border-radius: 5px;
 	background-color: #fff;
 	box-shadow: 0px 1.85px 6.85px #00000049;
+}
+
+.blockSection {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.dateBlock {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.month,
+.date,
+.locationTitle {
+	font-weight: bold;
+	--color: #5c3d2e;
+}
+
+.month {
+	font-size: 18px;
+	color: var(--color);
+}
+.date {
+	font-size: 25px;
+	color: var(--color);
+}
+
+.delimiter {
+	border-left: 6px solid #b85c38;
+	height: 52px;
+	width: 6px;
+	border-radius: 28px;
+}
+
+.location,
+.dateBlock {
+	padding: 0 20px 0 20px;
+}
+
+.locationTitle {
+}
+
+.locationAdditionalData {
+	font-size: 12px;
+}
+
+.firstRaw,
+.secondRaw {
+	display: flex;
+	color: var(--color);
+	padding-top: 2px;
+	gap: 2px;
+	font-weight: 600;
+	align-items: center;
 }
