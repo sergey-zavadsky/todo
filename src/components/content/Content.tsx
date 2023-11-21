@@ -1,6 +1,7 @@
 import styles from './css/Content.module.css';
 import search from '../search/Search.module.css';
 import upcoming from '../upcoming/Upcoming.module.css';
+import Upcoming from '../upcoming/Upcoming';
 import popular from '../popular/Popular.module.css';
 import { IconSearch } from '../../icons/Icons';
 import Block from '../itemBlock/Block';
@@ -14,12 +15,8 @@ function Content() {
 				<input className={search.input} placeholder="Search" />
 			</div>
 
-			<div className={upcoming.main}>
-				<h2>Upcoming</h2>
-				<div className={blockStructure.blockSection}>
-					<Block />
-				</div>
-			</div>
+			<Upcoming />
+
 			<div className={popular.main}>
 				<h2>Popular courses</h2>
 				<div className={blockStructure.blockSection}>

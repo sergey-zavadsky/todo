@@ -19,6 +19,8 @@
 	gap: 10px;
 }
 
+/* Переноспосле этой строки */
+
 .content {
 	display: flex;
 	flex-direction: row;
@@ -48,16 +50,15 @@
 	color: var(--color);
 }
 
-.delimiter {
-	border-left: 6px solid #b85c38;
-	height: 52px;
-	width: 6px;
-	border-radius: 28px;
-}
-
 .location,
 .dateBlock {
 	padding: 0 20px 0 20px;
+}
+
+.delimiter {
+	border-left: 6px solid #b85c38;
+	height: 52px;
+	border-radius: 28px;
 }
 
 .locationTitle {
