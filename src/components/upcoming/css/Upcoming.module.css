@@ -8,4 +8,5 @@
 .wrapper {
 	margin-top: 5px;
 	min-height: 150px;
+	overflow: auto;
 }
