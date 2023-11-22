@@ -13,19 +13,23 @@ function Content() {
 				<IconSearch className={search.icon} />
 				<input className={search.input} placeholder="Search" />
 			</div>
-
 			<div className={upcoming.main}>
-				<h2>Upcoming</h2>
+				<h2 className={upcoming.title}>Upcoming</h2>
 				<div className={blockStructure.blockSection}>
 					<Block />
 				</div>
 			</div>
-			<div className={popular.main}>
-				<h2>Popular courses</h2>
-				<div className={blockStructure.blockSection}>
-					<Block />
-					<Block />
-					<Block />
+			<h2 className={popular.title}>Popular courses</h2>
+			<div className={popular.wrapper}>
+				<div className={popular.main}>
+					<div className={blockStructure.blockSection}>
+						<Block />
+						<Block />
+						<Block />
+						<Block />
+						<Block />
+						<Block />
+					</div>
 				</div>
 			</div>
 		</div>
