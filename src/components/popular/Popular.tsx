@@ -6,19 +6,19 @@ import { IconGeoAlt, IconBxTimeFive } from '../../icons/Icons';
 function Popular() {
 	const parent = (
 		<>
-			<div className={block.dateBlock}>
-				<div className={block.month}>Dec</div>
-				<div className={block.date}>15</div>
+			<div className={popular.dateBlock}>
+				<div className={popular.month}>Dec</div>
+				<div className={popular.date}>15</div>
 			</div>
-			<div className={block.delimiter}> </div>
-			<div className={block.location}>
-				<div className={block.locationTitle}>Make a babka dough</div>
-				<div className={block.locationAdditionalData}>
-					<div className={block.firstRaw}>
+			<div className={popular.delimiter}> </div>
+			<div className={popular.location}>
+				<div className={popular.locationTitle}>Make a babka dough</div>
+				<div className={popular.locationAdditionalData}>
+					<div className={popular.firstRaw}>
 						<IconGeoAlt />
 						<div>Lida, Belarus</div>
 					</div>
-					<div className={block.secondRaw}>
+					<div className={popular.secondRaw}>
 						<IconBxTimeFive />
 						<div>23:00</div>
 					</div>
