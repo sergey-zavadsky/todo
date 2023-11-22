@@ -6,9 +6,10 @@
 .input {
 	display: flex;
 	align-items: center;
+	align-self: center;
 	justify-content: space-around;
 	background-color: #76768042;
-	width: 390px;
+	width: 80%;
 	height: 36px;
 	border-radius: 10px;
 	--search-bg-color: #76768042000;
@@ -20,7 +21,6 @@
 	border: none;
 	border-radius: 0;
 	outline: none;
-	width: 352px;
 	height: 29.63px;
 }
 
