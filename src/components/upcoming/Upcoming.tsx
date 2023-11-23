@@ -35,6 +35,8 @@ function Upcoming() {
 					<div className={block.blockSection}>
 						<Block parent={parent} />
 						<Block parent={parent} />
+						<Block parent={parent} />
+						<Block parent={parent} />
 					</div>
 				</div>
 			</div>

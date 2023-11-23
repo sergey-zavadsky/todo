@@ -19,8 +19,7 @@
 }
 
 .title {
-	margin-top: 5px;
-	padding: 0 0 0 20px;
+	margin: 5px 0 0 20px;
 	position: sticky;
 	top: 0;
 	background-color: #f3f3f3;
