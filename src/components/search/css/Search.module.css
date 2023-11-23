@@ -1,5 +1,5 @@
 .main {
-	margin: 20px;
+	margin-top: 1vh;
 }
 
 .main,
@@ -7,7 +7,7 @@
 	display: flex;
 	align-items: center;
 	align-self: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background-color: #76768042;
 	width: 80%;
 	height: 36px;
